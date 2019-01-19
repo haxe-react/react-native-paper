@@ -6,6 +6,7 @@ import react.ReactComponent;
 extern class Button extends ReactComponentOfProps <{
 	?icon:String,
 	?mode:String,
+	?color:String,
 	?loading:Bool,
 	?compact:Bool,
 	?onPress:Void->Void,
